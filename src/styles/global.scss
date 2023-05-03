@@ -1,3 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.container-section {
+    width: min(90%, 1440px);
+    margin-inline: auto;
+}
+* {
+    margin: 0 auto;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}

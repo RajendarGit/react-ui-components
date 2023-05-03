@@ -1,0 +1,26 @@
+.nav {
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
+    &.nav-primary {
+        background-color: #22aaff;
+        color: #fff;
+    }
+    &.nav-info {
+        background-color: lightblue;
+        color: #fff;
+    }
+    &.nav-danger {
+        background-color: red;
+        color: #fff;
+    }
+}
+.navSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}

@@ -1,0 +1,12 @@
+.alert {
+    padding: 1rem;
+    line-height: .5rem;
+    &.alert-danger {
+        background-color: red;
+        color: white;
+    }
+    &.alert-success {
+        background-color: green;
+        color: white;
+    }
+}

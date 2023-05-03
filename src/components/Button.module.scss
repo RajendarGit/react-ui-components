@@ -1,13 +1,18 @@
 .btn {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border: none;
-    display: flex;
+    display: inline-flex;
+    border-radius: .2rem;
     &.btn-primary {
-        background-color: green;
+        background-color: darkblue;
         color: white;
     }
     &.btn-danger {
         background-color: red;
+        color: white;
+    }
+    &.btn-dark {
+        background-color: black;
         color: white;
     }
 }

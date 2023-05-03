@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.child {
+    flex: 1;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+.content {
+    color: #474747;
+    margin-bottom: 1rem;
+}

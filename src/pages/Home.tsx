@@ -1,10 +1,20 @@
 import React from 'react'
-import Button from '../components/Button'
+import Content from '../components/Content'
+
+const Text = "Lorem ipsum dolor sit amet, consectetur adip. Cum societes, nascetur ridiculus mus, sed diam nonumy eirmod tempor";
 
 const Home = () => {
   return (
-    <div>
-      <Button>Button</Button>
+    <div className='container-section'>
+      <Content
+      title="Welcome"
+      content={Text}
+      />
+      <Content
+      title="Welcome"
+      content={Text}
+      reverse={true}
+      />
     </div>
   )
 }

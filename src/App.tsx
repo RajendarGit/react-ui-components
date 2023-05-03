@@ -1,10 +1,11 @@
 import React from 'react';
-import Home from './pages/Home';
+import './styles/global.scss';
+import Layout from './pages/Layout';
 
 function App() {
   return (
     <div>
-      <Home/>
+      <Layout/>
     </div>
   );
 }

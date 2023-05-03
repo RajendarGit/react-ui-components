@@ -3,7 +3,7 @@ import styles from './Button.module.scss';
 
 interface Props {
   children?: React.ReactNode;
-  variant?: 'primary' | 'danger';
+  variant?: 'primary' | 'danger' | 'dark';
   type?: 'submit' | 'reset' | 'button';
 }
 
