@@ -1,11 +1,9 @@
+@use '../styles/abstract/variables' as v;
+@use '../styles/abstract/mixins' as m;
 .btn {
-    padding: 1rem 1.5rem;
-    border: none;
-    display: inline-flex;
-    border-radius: .2rem;
+    @include m.btn();
     &.btn-primary {
-        background-color: darkblue;
-        color: white;
+        @include m.theme();
     }
     &.btn-danger {
         background-color: red;
@@ -14,5 +12,14 @@
     &.btn-dark {
         background-color: black;
         color: white;
+    }
+    &.btn-curved {
+        @include m.btn(5rem);
+    }
+    &.btn-md {
+        @include m.btn(5rem);
+    }
+    &.btn-lg {
+        @include m.btn(5rem, 5rem);
     }
 }

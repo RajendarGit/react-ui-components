@@ -1,9 +1,10 @@
+@use '../styles/abstract/variables' as v;
+@use '../styles/abstract/mixins' as m;
 .nav {
     padding-block-start: 2rem;
     padding-block-end: 2rem;
     &.nav-primary {
-        background-color: #22aaff;
-        color: #fff;
+        @include m.theme();
     }
     &.nav-info {
         background-color: lightblue;

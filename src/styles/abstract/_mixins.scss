@@ -1,0 +1,11 @@
+@use './variables' as v;
+@mixin theme($bg: v.$warning-color, $color: v.$secondary-color) {
+    background-color: $bg;
+    color: $color;
+}
+@mixin btn($radius: .2rem, $padding: 1rem 1.5rem) {
+    padding: $padding;
+    border: none;
+    display: inline-flex;
+    border-radius: $radius;
+}

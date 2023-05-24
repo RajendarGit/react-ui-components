@@ -22,6 +22,7 @@ const Content:FC<Props> = ({title, content, btn = true, reverse = false}) => {
                 {content}
             </p>
             {btn === true ? <Button>Button</Button> : null}
+            <Button radius size='lg'>Curved Button</Button>
         </div>
     </div>
   )

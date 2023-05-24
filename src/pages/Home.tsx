@@ -1,5 +1,6 @@
 import React from 'react'
 import Content from '../components/Content'
+import Poster from '../components/Poster';
 
 const Text = "Lorem ipsum dolor sit amet, consectetur adip. Cum societes, nascetur ridiculus mus, sed diam nonumy eirmod tempor";
 
@@ -15,6 +16,7 @@ const Home = () => {
       content={Text}
       reverse={true}
       />
+      {/* <Poster/> */}
     </div>
   )
 }
